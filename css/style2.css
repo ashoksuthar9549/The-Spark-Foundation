@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/img/20180827-ChildrenIndia-844.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255,255,255);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.nav-heading{
+    display:inline ;
+    font-size: 30px;
+}
+
+.navbar{
+   
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.list-items{
+    display: inline;
+    font-size: 20px;
+}
+
+.list-items a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+.main{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 200px
+    
+}
+
+span{
+    color: yellow;
+}
+
+.button{
+    margin-left: 20px;
+    background-color: yellow;
+    color: black;
+    font-weight: 700;
+    padding:15px 30px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+.button a{
+    color: black;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: blue;
+}
