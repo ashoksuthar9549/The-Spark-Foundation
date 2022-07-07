@@ -40,8 +40,14 @@ body{
 }
 
 .list-items a{
+    padding: 15px;
     text-decoration: none;
     color: rgb(255,255,255);
+}
+
+.list-items a:hover{
+    background-color: yellow;
+    color: black;
 }
 
 .main{
